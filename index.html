@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>수행평가2 예시 페이지</title>
+  <title>수행평가2</title>
   <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
 </head>
@@ -16,7 +16,6 @@
     <div id="menu">
       <a class="link" href="https://google.com">구글 외부 링크</a>
       <a class="link" href="https://osani-h.goehs.kr/">오산정보고등학교</a>
-      <a class="link" id="login">Login</a>
     </div>
 
     <img class="photo" src="photo.svg" alt="코드온 동아리 활동 모습">
@@ -32,7 +31,7 @@
       </h3>
     </div>
 
-    <h2>HTML, CSS</h2>
+    <h2>HTML, CSS, JavaScript 수행평가 목록</h2>
     <div id="cards">
       <div class="card">
         <h3>HTML</h3>
@@ -62,11 +61,45 @@
           <li>height</li>
           <li>margin</li>
           <li>padding</li>
-
           <li>display(inline-block, flex)</li>
         </ol>
       </div>
+      <div class="card">
+        <h3>javaScript</h3>
+        <ol>
+          <li>로그인</li>
+          <li>글자 색 바꾸기</li>
+          <li>클릭 수 세기</li>
+          <li></li>
+          <li>margin</li>
+        </ol>
+      </div>
     </div>
+    <h2>JavaScript 예시</h2>
+
+
+    <h3>1. 로그인</h3>
+    <form id="loginForm">
+      <input type="text" id="user_Id" placeholder="아이디" required>
+      <BR>
+      <input type="password" id="user_Pw" placeholder="비밀번호" required>
+      <BR>
+      <button type="submit">로그인</button>
+    </form>
+    <br>
+    
+    
+    <h3 id="textColor">2. 글자 색 바꾸기</h3>
+
+    <h3 id="text_message">안녕하세요 만나서 반갑습니다. 클릭하시면 색이 바뀝니다.</h3>
+
+    <br>
+    <h3>3. 카운터</h3>
+
+    <button id="counter">counter</button>
+    <label id="count_number">0번 클릭</label>
+
+    <p id="number"></p>
 
     <h2>진행 일정</h2>
     <table>
@@ -91,8 +124,6 @@
         <td>질의응답</td>
       </tr>
     </table>
-
-    <p>예시: <span class="point">2학년 5반 홍길동</span></p>
   </div>
 </body>
 
